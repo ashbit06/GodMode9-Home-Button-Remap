@@ -4,6 +4,12 @@ _A full access file browser for the 3DS console_ :godmode:
 GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, to the FAT partitions inside your SysNAND and EmuNAND and to basically anything else. Among other functionality (see below), you can copy, delete, rename files and create folders.
 
 
+## A note from me
+I made this because I messed up a repair for my New 3DS LL, destroying the home button ribbon connector. I do not have the tools to fix it myself, so I recently decided to fix it in software with [rehid](https://github.com/hax0kartik/rehid) and modifying gm9.
+
+The buttons I remapped were SELECT -> HOME and ZR -> SELECT. This does mean that you will not be able to use the clipboard functions properly on original 3DS and 3DS XL systems.
+
+
 ## Warning
 __This is powerful stuff__, it provides you with the means to do basically any thinkable modification to any system data available on the 3DS console. However, precautions are taken so you don't accidentally damage the data of your console. The write permissions system protects you by providing warnings and forces you to enter an unlock sequence for enabling write permissions. It is not possible to overwrite or modify any important stuff without such unlock sequences and it is not possible to accidentally unlock something.
 
