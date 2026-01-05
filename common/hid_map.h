@@ -2,7 +2,7 @@
 
 #define BUTTON_A      ((u32)1 << 0)
 #define BUTTON_B      ((u32)1 << 1)
-#define BUTTON_SELECT ((u32)1 << 2)
+#define BUTTON_SELECT ((u32)1 << 15) // remapped to ZR to avoid conflict with home button remap to select
 #define BUTTON_START  ((u32)1 << 3)
 #define BUTTON_RIGHT  ((u32)1 << 4)
 #define BUTTON_LEFT   ((u32)1 << 5)
@@ -16,11 +16,11 @@
 #define BUTTON_ARROW  (BUTTON_RIGHT|BUTTON_LEFT|BUTTON_UP|BUTTON_DOWN)
 
 // strings for button conversion
-#define BUTTON_STRINGS  "A", "B", "SELECT", "START", "RIGHT", "LEFT", "UP", "DOWN", "R", "L", "X", "Y"
+#define BUTTON_STRINGS  "A", "B", "SELECT", "START", "RIGHT", "LEFT", "UP", "DOWN", "R", "L", "X", "Y", "ZR"
 
 // special buttons / touchscreen / cart / sd
 #define BUTTON_POWER  ((u32)1 << 12)
-#define BUTTON_HOME   ((u32)1 << 13)
+#define BUTTON_HOME   ((u32)1 << 2) // remap home to SELECT
 #define BUTTON_WIFI   ((u32)1 << 14)
 #define BUTTON_TOUCH  ((u32)1 << 15)
 
