@@ -5,7 +5,7 @@ GodMode9 is a full access file browser for the Nintendo 3DS console, giving you 
 
 
 ## A note from me
-I made this because I messed up a repair for my New 3DS LL, destroying the home button ribbon connector. I do not have the tools to fix it myself, so I recently decided to fix it in software with [rehid](https://github.com/hax0kartik/rehid) and modifying gm9.
+I made this fork because I messed up a repair for my New 3DS LL, destroying the home button ribbon connector. I do not have the tools to fix it myself, so I recently decided to fix it in software with [rehid](https://github.com/hax0kartik/rehid) and modifying gm9.
 
 The buttons I remapped were SELECT -> HOME and ZR -> SELECT. This does mean that you will not be able to use the clipboard functions properly on original 3DS and 3DS XL systems.
 
