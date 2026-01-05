@@ -54,5 +54,5 @@ desktop.ini
 
 # User additions
 /zzz_backup
-/arm9/source/language.inl
+# /arm9/source/language.inl  <-- removed so i can update the file
 *.trf
