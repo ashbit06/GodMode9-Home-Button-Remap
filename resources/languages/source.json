@@ -465,7 +465,7 @@
 	"PAYLOADS": "Payloads...",
 	"MORE": "More...",
 	"BRACKET_MORE": "[more...]",
-	"HOME_BUTTON_PRESSED_SELECT_ACTION": "HOME button pressed.\nSelect action:",
+	"HOME_BUTTON_PRESSED_SELECT_ACTION": "SELECT button pressed.\nSelect action:",
 	"POWER_BUTTON_PRESSED_SELECT_ACTION": "POWER button pressed.\nSelect action:",
 	"1_DRIVE_NAND_TWL": "[1:] NAND / TWL",
 	"4_DRIVE_NAND_TWL": "[4:] NAND / TWL",
