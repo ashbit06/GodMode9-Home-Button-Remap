@@ -119,9 +119,9 @@ firm: $(ELF) $(TRF_FILES)
 	@echo "[VERSION] $(VERSION)"
 	@echo "[BUILD] $(DBUILTL)"
 	@echo "[FIRM] $(FIRM)"
-	@$(PY3) -m firmtool build $(FIRM) $(FTFLAGS) -g -D $(ELF) -C NDMA NDMA XDMA
+	@firmtool build $(FIRM) $(FTFLAGS) -g -D $(ELF) -C NDMA NDMA XDMA
 	@echo "[FIRM] $(FIRMD)"
-	@$(PY3) -m firmtool build $(FIRMD) $(FTDFLAGS) -g -D $(ELF) -C NDMA NDMA XDMA
+	@firmtool build $(FIRMD) $(FTDFLAGS) -g -D $(ELF) -C NDMA NDMA XDMA
 
 vram0: $(VRAM_TAR) .FORCE # legacy target name
 
